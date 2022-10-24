@@ -95,6 +95,57 @@ Nuclear has already been translated to several languages, and we're always looki
 
 We're using [Crowdin](https://crowdin.com/project/nuclear) to manage localization. You can check if your language is supported, track localization progress, and help us translate Nuclear there.
 
+## Installation
+Every file contains the same version of Nuclear, there are no functional differences.
+
+First, click "Releases":
+
+![Releases](https://i.imgur.com/yEGb0H9.png)
+
+You will see a list of releases. Find the most recent one (at the top), and click "Assets".
+
+![Releases](https://i.imgur.com/P7ZHs09.png)
+
+You will see a list of files. You only need one of those files.
+
+Here's which ones you should get on each platform, and what the differences between them are:
+
+### Windows:
+
+**nuclear.Setup.<version>.exe**
+
+This is an installer for Windows, which starts a standard installation wizard.
+
+**nuclear-<version>.exe**
+
+This is a portable version, meaning the entire program is contained within a single file.
+
+### Linux:
+
+**Appimage**
+
+This is a relatively new format that should run on most Linux distributions. It contains everything, including dependencies in a single file, and it allows the program to run in a portable way or be installed.
+
+**.deb**
+
+This is a package for Debian-based distros.
+
+**.rpm**
+
+This is a package for Red Hat/Fedora-based distros.
+
+**.snap**
+
+This is a universal package format that can run on most distros. In Ubuntu, this is becoming the standard format for many packages.
+
+**.tar.gz**
+
+This is an archive containing compressed binary files and other assets. It should run on most distros.
+
+### MacOS:
+
+On Mac, you should download the .dmg, .pkg, or .zip package. They should all work the same way.
+
 ## Screenshots
 This will be updated as the program evolves.
 
